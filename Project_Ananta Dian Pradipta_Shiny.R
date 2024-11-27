@@ -1,4 +1,3 @@
-setwd("E:/Work/S3/NJIT/1. 2024 Fall/DS 636 Data Analytics with R Programming/Project")
 # --------------------------------
 # Step 1: Set Up the R Environment
 # --------------------------------
@@ -27,7 +26,7 @@ library(RColorBrewer)
 library(shiny)
 
 
-default_yearstart = 2017
+default_yearstart = 2020
 default_yearend = 2024
 
 fetch_articles <- function(years) {
